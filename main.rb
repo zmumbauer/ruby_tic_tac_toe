@@ -9,7 +9,7 @@ players = [
 game = Game.new(players)
 
 puts "Tic Tac Toe"
-game.print_board
+game.display_board
 puts "Player 1, your move"
 p game.play_turn(players[0])
-game.print_board
+puts game.display_board
